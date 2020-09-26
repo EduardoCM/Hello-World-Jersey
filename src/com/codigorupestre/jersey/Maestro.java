@@ -8,17 +8,17 @@ public class Maestro {
 	private int numeroCuenta;
 	private String nombre;
 	private String apellidos;
-	private String carrera;
+	private String materia;
 
 	public Maestro() {
 		
 	}
 	
-	public Maestro(int numeroCuenta, String nombre, String apellidos, String carrera) {
+	public Maestro(int numeroCuenta, String nombre, String apellidos, String materia) {
 		this.numeroCuenta = numeroCuenta;
 		this.nombre = nombre;
 		this.apellidos = apellidos;
-		this.carrera = carrera;
+		this.materia = materia;
 	}
 
 	public int getNumeroCuenta() {
@@ -45,18 +45,18 @@ public class Maestro {
 		this.apellidos = apellidos;
 	}
 
-	public String getCarrera() {
-		return carrera;
+	public String getMateria() {
+		return materia;
 	}
 
-	public void setCarrera(String carrera) {
-		this.carrera = carrera;
+	public void setMateria(String materia) {
+		this.materia = materia;
 	}
 
 	@Override
 	public String toString() {
-		return "Alumno [numeroCuenta=" + numeroCuenta + ", nombre=" + nombre + ", apellidos=" + apellidos + ", carrera="
-				+ carrera + "]";
+		return "Alumno [numeroCuenta=" + numeroCuenta + ", nombre=" + nombre + ", apellidos=" + apellidos + ", materia="
+				+ materia + "]";
 	}
 	
 	
